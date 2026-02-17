@@ -22,6 +22,8 @@ public class Calculator {
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
 
+
+        // Factorial Function for 1 Number
         int factorial = 1;
         for ( int i = num1; i >=1 ;i-- ){
             factorial = factorial * i ;
