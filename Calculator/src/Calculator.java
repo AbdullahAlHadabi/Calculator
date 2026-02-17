@@ -23,6 +23,18 @@ public class Calculator {
         System.out.println("Quotient: " + quotient);
 
 
+        // power function which takes 2 numbers
+        int result = 1;
+        for (int i = 1; i <= num2; i++) {
+            result = result * num1;
+        }
+        System.out.println("Power: " + result);
+
+
+
+
+
+
         scanner.close();
     }
 }
