@@ -22,6 +22,15 @@ public class Calculator {
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
 
+        int factorial = 1;
+        for ( int i = num1; i >=1 ;i-- ){
+            factorial = factorial * i ;
+
+        }
+        System.out.println("factorial: " + factorial);
+
+
+
 
         scanner.close();
     }
